@@ -156,7 +156,7 @@ class _QueenProblems4State extends State<QueenProblems4> {
     return Scaffold(
       backgroundColor: Colors.brown,
       appBar: AppBar(
-        title: Text('Queens Problem', style: TextStyle(color: Colors.white),),
+        title: Text('4-Queens Problem', style: TextStyle(color: Colors.white),),
         backgroundColor: Color(0xff764abc),
         centerTitle: true,
         titleTextStyle: TextStyle(
@@ -230,7 +230,6 @@ class _QueenProblems4State extends State<QueenProblems4> {
                                         )
                                             : Container(),
                                       ),
-                                      // (isHighlight && highlight[row][column]==true && aliveList[row][column]!=null && ((MatchView.isWhiteMove && aliveList[row][column]['color']!='white') || (MatchView.isWhiteMove==false && aliveList[row][column]['color']!='black') ))?Center(child: Icon(Icons.circle_sharp,color: Colors.orange,)):Container(),
                                     ],
                                   );
                                 }),

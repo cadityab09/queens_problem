@@ -232,7 +232,6 @@ class _QueenProblems8State extends State<QueenProblems8> {
                                               )
                                             : Container(),
                                       ),
-                                      // (isHighlight && highlight[row][column]==true && aliveList[row][column]!=null && ((MatchView.isWhiteMove && aliveList[row][column]['color']!='white') || (MatchView.isWhiteMove==false && aliveList[row][column]['color']!='black') ))?Center(child: Icon(Icons.circle_sharp,color: Colors.orange,)):Container(),
                                     ],
                                   );
                                 }),
